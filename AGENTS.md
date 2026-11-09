@@ -11,7 +11,7 @@ This repository is governed by the DevArts Lab foundation: `../foundation`
   career-tracker product (career-tracker ADR-0016 keeps it as the deferred
   hosted-tier path). Also deploys a Response Store Worker - see README deploy
   note.
-- Skills resolve by name from `~/.agents/skills/`; do not vendor copies.
+- Skills resolve by name from `$AGENT_CONFIG_HOME/skills/`; do not vendor copies.
 
 ## Commands and safety
 
