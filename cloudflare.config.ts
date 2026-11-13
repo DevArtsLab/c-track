@@ -20,6 +20,7 @@ export default defineConfig({
     compatibilityDate: "2026-10-07",
     compatibilityFlags: ["nodejs_compat"],
     assets: { notFoundHandling: "none" },
+    observability: { enabled: true },
     env: {
       ...responseStore.applicationWorker.env,
       ASSETS: bindings.assets(),
