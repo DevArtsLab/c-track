@@ -2,7 +2,7 @@
   "name": "c-track",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm",
+  "packageManager": "pnpm@12.18.0",
   "dependencies": {
     "@cloudflare/workers-response-store": "^1.1.0",
     "@vinext/cloudflare": "^1.1.0",
